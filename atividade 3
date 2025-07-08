@@ -1,0 +1,8 @@
+def tempoesperado(distancia , velocidade):
+    return distancia/velocidade 
+
+distancia = float(input("digite a distância em km"))
+velocidade = float(input("digite a velociade do carro em km/h"))
+
+tempo = tempoesperado(distancia , velocidade)
+print(tempo)
