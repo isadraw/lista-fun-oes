@@ -1,1 +1,5 @@
-# lista-fun-oes
+# lista funcoes
+#isabella
+#emilly
+#felipe fisher
+#Camilla
