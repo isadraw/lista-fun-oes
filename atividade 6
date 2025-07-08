@@ -1,0 +1,15 @@
+def fumante1(fumante):
+    return (fumante * 10 // 60 * 365 // 24)
+
+def fumante2(tempofumando, tempo):
+    return (tempofumando * tempo)
+
+
+fumante = int(input("Quantos cigarros você consome por dia?"))
+tempo = int(input("A quanto anos você consome cigarros?"))
+
+
+tempofumando = fumante1(fumante)
+tempoperdido = fumante2(tempofumando , tempo)
+
+print("o valor da sua redução de vida em dias é", tempoperdido)
