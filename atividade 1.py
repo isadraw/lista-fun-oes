@@ -1,9 +1,14 @@
-def temperatura (celcius):
-    return (9 * celcius) / 5 + 32
+def aumento (percentual, salario):
+   return (percentual / 100) * salario
 
+def salariofinal(valoraumento, salario):
+   return (valoraumento + salario)
 
-celcius = float(input("qual a sua temperatura em celcius?"))
+salario = float(input("Digite seu salário inicial  ""R$"))
+percentual = float(input("Qual será seu percentual de aumento? "))
 
-fah = temperatura(celcius)
+valoraumento = aumento(percentual, salario)
+valorfinal = salariofinal(valoraumento , salario)
 
-print("sua temperatura convertida é", fah)
+print("O valor do seu aumento salarial referente ao seu salario atual será de : ", valoraumento)
+print("O valor final do seu salario será de: ", valorfinal)
