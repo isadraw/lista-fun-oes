@@ -1,6 +1,9 @@
-def precopagar(kmrodados , temporotacao)
-    return
-def km ()
+def precopagar(valorkm , valorrotacao):
+    return valorkm + valorrotacao
+def km (kmrodados):
+  return kmrodados * 0,15
+def rotacao(temporotacao):
+  return temporotacao * 60
 
 kmrodados = float(input("Qual a quantidade de Km rodados pelo veículo atual?"))
 temporotacao = float(input("Por quantos dias o carro foi utilizado?"))
@@ -8,3 +11,4 @@ temporotacao = float(input("Por quantos dias o carro foi utilizado?"))
 valorkm = km(kmrodados)
 valorrotacao = rotacao(temporotacao)
 valorfinal = precopagar(kmrodados, temporotacao)
+print("o valor a ser pago é de:",valorfinal)
